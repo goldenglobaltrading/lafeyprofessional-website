@@ -1,18 +1,23 @@
-# LaFey Professional Website
+# LaFey Professional Website — V3
 
-Static brand website for `lafeyprofessional.com`.
+This version uses the approved LaFey logo and clean product images supplied for:
 
-## Files
+- Shampoo
+- Hair Mask
+- Two-Phase Conditioner
+- Hair Serum
 
-- `index.html` — homepage structure and copy
-- `styles.css` — responsive design
-- `script.js` — mobile menu and Amazon links
-- `assets/images/` — place approved product and lifestyle images here
+## Upload to GitHub
 
-## Before launch
+Upload all files and folders while preserving this structure:
 
-1. Replace all image placeholders with approved images.
-2. Replace the Amazon URL in `script.js` with the final LaFey Amazon Store or product collection link.
-3. Confirm the contact email.
-4. Verify every ingredient statement against the final product labels.
-5. Connect the GitHub repository to Cloudflare Pages.
+- index.html
+- styles.css
+- script.js
+- assets/images/
+
+## Before final launch
+
+1. Replace the default Amazon URL in `script.js`.
+2. Confirm the contact email.
+3. Verify all marketing and ingredient statements against approved U.S. packaging and final product documentation.

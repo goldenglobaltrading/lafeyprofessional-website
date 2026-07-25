@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>LaFey Professional | Professional Hair Care Inspired by Nature</title>
-  <meta name="description" content="Discover LaFey Professional Phyto Protein hair care for dull, dry and damaged hair. Explore the complete routine and shop on Amazon.">
+  <title>LaFey Professional | Phyto Protein Hair Care</title>
+  <meta name="description" content="Discover LaFey Professional Phyto Protein hair care for dull, dry and damaged hair. Explore shampoo, hair mask, leave-in conditioner and serum.">
+  <meta name="theme-color" content="#0f3d2e">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -13,153 +14,187 @@
 <body>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="LaFey Professional home">
-      <span class="brand-main">LaFey</span>
-      <span class="brand-sub">PROFESSIONAL</span>
+      <img src="assets/images/logo.jpeg" alt="LaFey Professional logo">
+      <span>
+        <strong>LAFEY</strong>
+        <small>PROFESSIONAL</small>
+      </span>
     </a>
-    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+
     <nav class="nav" aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#products">Products</a>
+      <a href="#collection">Collection</a>
+      <a href="#philosophy">Why LaFey</a>
       <a href="#routine">Routine</a>
-      <a href="#ingredients">Ingredients</a>
       <a href="#contact">Contact</a>
+      <a class="nav-cta" href="#" data-amazon-link>Shop on Amazon</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-content">
+      <div class="hero-copy reveal">
         <p class="eyebrow">PHYTO PROTEIN COLLECTION</p>
-        <h1>Professional Hair Care Inspired by Nature</h1>
-        <p class="hero-copy">Salon-inspired formulas with plant-derived proteins and botanical ingredients, created to help care for dull, dry and damaged hair.</p>
+        <h1>Professional hair care inspired by nature.</h1>
+        <p class="hero-text">Salon-inspired formulas created for dull, dry and damaged hair, with a complete routine from cleansing to finishing.</p>
         <div class="hero-actions">
-          <a class="button button-primary" href="#products">Discover the Collection</a>
+          <a class="button button-primary" href="#collection">Explore Collection</a>
           <a class="button button-secondary" href="#" data-amazon-link>Shop on Amazon</a>
         </div>
       </div>
-      <div class="hero-visual image-placeholder">
-        <span>Hero lifestyle image</span>
-        <small>Recommended: 1600 × 1200 px</small>
+
+      <div class="hero-visual reveal">
+        <div class="hero-glow"></div>
+        <img src="assets/images/shampoo.jpeg" alt="LaFey Professional Phyto Protein Shampoo">
       </div>
     </section>
 
-    <section class="intro section" id="about">
+    <section class="intro section reveal">
       <p class="eyebrow">THE LAFEY APPROACH</p>
-      <h2>Care that feels professional, every day</h2>
-      <p>LaFey Professional brings together salon-inspired care, modern formulation and plant-focused ingredients in a simple four-step routine designed for everyday use.</p>
+      <h2>Salon-inspired care. Everyday luxury.</h2>
+      <p>A focused four-step collection designed to cleanse, deeply condition, detangle and finish—without making everyday hair care feel complicated.</p>
     </section>
 
-    <section class="section products-section" id="products">
-      <div class="section-heading">
+    <section id="collection" class="section collection">
+      <div class="section-heading reveal">
         <div>
-          <p class="eyebrow">OUR COLLECTION</p>
-          <h2>The complete Phyto Protein routine</h2>
+          <p class="eyebrow">THE COLLECTION</p>
+          <h2>Four essentials. One complete routine.</h2>
         </div>
-        <p>Four complementary products designed to cleanse, condition, smooth and finish.</p>
       </div>
 
       <div class="product-grid">
-        <article class="product-card">
-          <div class="product-image image-placeholder"><span>Shampoo image</span></div>
-          <div class="product-card-body">
-            <p class="product-step">STEP 01</p>
+        <article class="product-card reveal">
+          <div class="product-image-wrap">
+            <img src="assets/images/shampoo.jpeg" alt="LaFey Phyto Protein Shampoo">
+          </div>
+          <div class="product-copy">
+            <span>STEP 01</span>
             <h3>Phyto Protein Shampoo</h3>
-            <p>Gently cleanses while helping hair feel softer, smoother and refreshed.</p>
+            <p>Gently cleanses while helping hair feel refreshed, soft and smooth.</p>
             <a href="#" data-amazon-link>View on Amazon →</a>
           </div>
         </article>
 
-        <article class="product-card">
-          <div class="product-image image-placeholder"><span>Hair Mask image</span></div>
-          <div class="product-card-body">
-            <p class="product-step">STEP 02</p>
+        <article class="product-card reveal">
+          <div class="product-image-wrap">
+            <img src="assets/images/mask.jpeg" alt="LaFey Phyto Protein Hair Mask">
+          </div>
+          <div class="product-copy">
+            <span>STEP 02</span>
             <h3>Phyto Protein Hair Mask</h3>
-            <p>Rich conditioning care for dry and damaged hair that needs added softness.</p>
+            <p>Deep conditioning care for dry, dull and damaged-looking hair.</p>
             <a href="#" data-amazon-link>View on Amazon →</a>
           </div>
         </article>
 
-        <article class="product-card">
-          <div class="product-image image-placeholder"><span>Conditioner image</span></div>
-          <div class="product-card-body">
-            <p class="product-step">STEP 03</p>
-            <h3>Two-Phase Leave-In Conditioner</h3>
+        <article class="product-card reveal">
+          <div class="product-image-wrap">
+            <img src="assets/images/conditioner.jpeg" alt="LaFey Two Phase Hair Conditioner">
+          </div>
+          <div class="product-copy">
+            <span>STEP 03</span>
+            <h3>Two-Phase Conditioner</h3>
             <p>Lightweight leave-in care that helps detangle and improve manageability.</p>
             <a href="#" data-amazon-link>View on Amazon →</a>
           </div>
         </article>
 
-        <article class="product-card">
-          <div class="product-image image-placeholder"><span>Hair Serum image</span></div>
-          <div class="product-card-body">
-            <p class="product-step">STEP 04</p>
+        <article class="product-card reveal">
+          <div class="product-image-wrap">
+            <img src="assets/images/serum.jpeg" alt="LaFey Phyto Protein Hair Serum">
+          </div>
+          <div class="product-copy">
+            <span>STEP 04</span>
             <h3>Phyto Protein Hair Serum</h3>
-            <p>A finishing touch that helps smooth the look of hair and enhance shine.</p>
+            <p>A lightweight finishing touch that helps smooth the look of hair and enhance shine.</p>
             <a href="#" data-amazon-link>View on Amazon →</a>
           </div>
         </article>
       </div>
     </section>
 
-    <section class="routine section" id="routine">
-      <div class="routine-copy">
-        <p class="eyebrow">A SIMPLE FOUR-STEP SYSTEM</p>
-        <h2>Your professional hair care routine</h2>
-        <p>Build a consistent routine with products designed to work together from cleansing to finishing.</p>
+    <section id="philosophy" class="philosophy section">
+      <div class="philosophy-copy reveal">
+        <p class="eyebrow">POWERED BY NATURE</p>
+        <h2>A plant-focused approach to professional hair care.</h2>
+        <p>LaFey Professional centers its collection around a refined ingredient story featuring Phyto Protein, botanical oils and a vitamin complex.</p>
+
+        <div class="benefits">
+          <div><b>01</b><span>Phyto Protein<small>Supports the collection's strengthening care story.</small></span></div>
+          <div><b>02</b><span>Botanical Oils<small>Help support softness, nourishment and a polished feel.</small></span></div>
+          <div><b>03</b><span>Vitamin Complex<small>Complements a modern, salon-inspired hair care routine.</small></span></div>
+        </div>
       </div>
+
+      <div class="philosophy-visual reveal">
+        <div class="image-collage">
+          <img src="assets/images/mask.jpeg" alt="LaFey Phyto Protein Hair Mask">
+          <img src="assets/images/serum.jpeg" alt="LaFey Phyto Protein Hair Serum">
+        </div>
+      </div>
+    </section>
+
+    <section id="routine" class="routine section">
+      <div class="routine-heading reveal">
+        <p class="eyebrow">YOUR PROFESSIONAL RITUAL</p>
+        <h2>Simple steps, beautifully finished hair.</h2>
+      </div>
+
       <ol class="routine-steps">
-        <li><span>01</span><strong>Cleanse</strong><small>Shampoo</small></li>
-        <li><span>02</span><strong>Condition</strong><small>Hair Mask</small></li>
-        <li><span>03</span><strong>Detangle</strong><small>Leave-In Conditioner</small></li>
-        <li><span>04</span><strong>Finish</strong><small>Hair Serum</small></li>
+        <li class="reveal"><strong>01</strong><div><h3>Cleanse</h3><p>Apply shampoo to wet hair, massage gently and rinse thoroughly.</p></div></li>
+        <li class="reveal"><strong>02</strong><div><h3>Condition</h3><p>Apply the hair mask through lengths and ends, then rinse.</p></div></li>
+        <li class="reveal"><strong>03</strong><div><h3>Detangle</h3><p>Shake the two-phase conditioner well, spray evenly and comb through.</p></div></li>
+        <li class="reveal"><strong>04</strong><div><h3>Finish</h3><p>Apply a small amount of serum to lengths and ends for a polished finish.</p></div></li>
       </ol>
     </section>
 
-    <section class="section ingredients" id="ingredients">
-      <div class="section-heading">
-        <div>
-          <p class="eyebrow">POWERED BY NATURE</p>
-          <h2>Thoughtfully selected ingredients</h2>
-        </div>
-        <p>Ingredient messaging should always match the final product labels and verified formulas.</p>
+    <section class="feature section">
+      <div class="feature-image reveal">
+        <img src="assets/images/conditioner.jpeg" alt="LaFey Professional leave-in conditioner">
       </div>
-      <div class="ingredient-grid">
-        <div><h3>Plant Protein</h3><p>Supports a professional, protein-focused care story.</p></div>
-        <div><h3>Hydrolyzed Rice Protein</h3><p>Featured in the Phyto Protein ingredient narrative.</p></div>
-        <div><h3>Biotin</h3><p>A familiar ingredient used in modern hair care formulas.</p></div>
-        <div><h3>Botanical Extracts</h3><p>Includes selected plant extracts used across the collection.</p></div>
+      <div class="feature-copy reveal">
+        <p class="eyebrow">PROFESSIONAL LEAVE-IN CARE</p>
+        <h2>Lightweight care for styling and everyday use.</h2>
+        <p>The two-phase conditioner is designed to fit easily into daily routines—shake, spray, comb through and style.</p>
+        <a class="button button-primary" href="#" data-amazon-link>Discover on Amazon</a>
       </div>
     </section>
 
-    <section class="amazon-cta section">
+    <section class="amazon-cta section reveal">
       <div>
         <p class="eyebrow">AVAILABLE ON AMAZON</p>
-        <h2>Discover LaFey Professional</h2>
-        <p>Explore product details, availability and purchasing options on Amazon.</p>
+        <h2>Discover LaFey Professional.</h2>
+        <p>View current availability and purchasing options on Amazon.</p>
       </div>
       <a class="button button-light" href="#" data-amazon-link>Shop the Collection</a>
     </section>
   </main>
 
-  <footer id="contact">
-    <div>
-      <a class="brand footer-brand" href="#top">
-        <span class="brand-main">LaFey</span>
-        <span class="brand-sub">PROFESSIONAL</span>
-      </a>
+  <footer id="contact" class="site-footer">
+    <div class="footer-brand">
+      <img src="assets/images/logo.jpeg" alt="">
+      <div>
+        <strong>LAFEY</strong>
+        <small>PROFESSIONAL</small>
+      </div>
       <p>Professional hair care inspired by nature.</p>
     </div>
+
     <div>
       <h3>Explore</h3>
-      <a href="#products">Products</a>
+      <a href="#collection">Collection</a>
+      <a href="#philosophy">Why LaFey</a>
       <a href="#routine">Routine</a>
-      <a href="#ingredients">Ingredients</a>
     </div>
+
     <div>
       <h3>Contact</h3>
       <a href="mailto:info@lafeyprofessional.com">info@lafeyprofessional.com</a>
       <p>Golden Global Trading LLC<br>Authorized U.S. Distributor</p>
     </div>
+
     <div class="footer-bottom">
       <p>© <span id="year"></span> LaFey Professional. All rights reserved.</p>
     </div>
